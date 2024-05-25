@@ -16,7 +16,7 @@ export const myData = {
 export function User(props) {
   return (
     <div id="user" data-testid="user">
-      <h2>{props.firstName} {props.lastName}</h2>
+      <h2>{props.firstName}</h2>
       <p>{props.title}</p>
     </div>
   );
